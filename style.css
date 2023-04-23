@@ -1,0 +1,151 @@
+* {
+  margin:0;
+  padding:0;
+letter-spacing:1px;
+}
+
+#name-head {
+  font-size: 36px;
+  margin:12px;
+  
+}
+#job {
+  margin:12px;
+  font-size:18px;
+}
+table {
+  margin-left: -10px;
+}
+
+th {
+  color: #e1efe7;
+}
+#header {
+	background: linear-gradient(-45deg, #23d5ab, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#header {
+  line-height: 175%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #fbe693;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+#box {
+  margin-left: 32px;
+  margin-right: 32px;
+  border-style: solid;
+  border-color: white;
+  
+}
+
+
+#hobbies,#summary,#details,#education,#skills {
+  margin-left: 36px;
+}
+div{
+  padding-top:16px;
+  padding-bottom: 12px;
+}
+
+body {
+  color: #5cfcdb;
+  font-family: 'Nunito Sans', sans-serif;
+	background-image: linear-gradient(45deg, #fc5c7d, #6a82fb);
+	background-size: 400% 400%;
+	-webkit-animation: gradient2 15s ease infinite;
+	        animation: gradient2 15s ease infinite;
+} 
+
+@keyframes gradient2 {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient2 {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+body h2,h3 {
+  color: #F9DF74;
+}
+body :not(h1):not(h2):not(h3){
+   font-size: 20px;
+  
+}
+
+th, td {
+  padding: 8px;
+}
+
+#header {
+  position: sticky;
+}
+
+#certificates {
+  display : flex;
+  flex-wrap: wrap;
+  padding: 24px;
+}
+.certificate-img {
+  width: 360px;
+  padding:6px;
+}
+
+.certificate-img:hover {
+  align-items: center;
+  justify-content: center;
+  transform: scale(1.1);
+}
+
+
+footer {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-weight:100;
+  font-size: 3px;
+  background-color: #ffffff;
+  color: black;
+}
